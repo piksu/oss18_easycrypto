@@ -6,6 +6,10 @@ The code here has been created for educational purposes, and the apps (probably)
 
 *(c) Antti Juustila, Degree Program of Information Processing Science, University of Oulu, Finland.*
 
+### License ###
+
+For the purpose of this course, all code is licensed under GPLv3, unless otherwise stated in a file.
+
 ### What is this repository for? ###
 
 Repository includes four components: 
@@ -35,9 +39,25 @@ You can also run the Client and Server on the same machine. When launching the c
 
 ### Contribution guidelines ###
 
-* TBD
+The code has issues and features to be done. In order for the best experience for us and you, we have a simple list of guidelines that have to be followed.
+
+First of all, please, use only TABS, no spaces. You can turn on the view of tabs and spaces in your preferred IDE.
+
+Nested loops should be have equivalent to where the code is, for example, if 4 tabs have been used and you need to add something inside the loop, add one more tab.
+
+Only one variable per declaration, declarations such as int a, b are incorrect.
+
+Variables are named with non-capital letters and must make sense.
+
+If two or more words need to be combined into one variable name, start second variable without spacing with capital letter, for example, cryptoMatrix
+
+For everything else, Google Java guideline is preferred that can be found here
+http://google.github.io/styleguide/javaguide.html
+
 
 ### Who do I talk to? ###
 
 * Antti Juustila
 * firstname.lastname@oulu.fi
+
+The contributor team can be contacted through Slack, Emails
