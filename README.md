@@ -38,6 +38,13 @@ You can also run the Client and Server on the same machine. When launching the c
 
 
 ### Contribution guidelines ###
+Push only files that belong to the project, no OS specific files
+Commit message should be in imperative mode and descriptive. It should be no more then 54 characters
+Test your changes before pushing
+Update branch often
+Work in your local branch (git checkout -b mylocal) and push to the latest version of master
+
+### Coding guidlines ###
 
 The code has issues and features to be done. In order for the best experience for us and you, we have a simple list of guidelines that have to be followed.
 
