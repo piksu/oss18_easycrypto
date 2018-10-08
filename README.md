@@ -36,13 +36,21 @@ You can also run the Client and Server on the same machine. When launching the c
     * Run Server in one console window, and the Client in another.
 5. For testing the Lib without network, you can use the Console without the overhead of networking between the Client and Server.
 
+The presentation and a list of known bugs and desired features can be found
+bit.ly/oss18crypto
 
 ### Contribution guidelines ###
 Push only files that belong to the project, no OS specific files
 Commit message should be in imperative mode and descriptive. It should be no more then 54 characters
 Test your changes before pushing
 Update branch often
-Work in your local branch (git checkout -b mylocal) and push to the latest version of master
+Work in your local branch (git checkout -b mylocal)
+After issues resolved and the commit is ready provide a patch by running 
+git format-patch
+Provide the formatted patch to project dictators through email.
+The review process will start and you will get comments on your patch.
+Patch will be accepted or rejected.
+If your patch is rejected, use comments provided to change it if applicable.
 
 ### Coding guidlines ###
 
@@ -63,8 +71,16 @@ http://google.github.io/styleguide/javaguide.html
 
 
 ### Who do I talk to? ###
+Main communication channel the following mailing list
+https://groups.google.com/forum/#!forum/oss18_easycrypto
+* Aleksey Valov
+* aleksey.valov(at)gmail.com
+
+* Meshak Konadu
+* meshack.konadu(at)student.oulu.fi
+
+* Mikko Hautanen
+* mikko.hautanen(at)student.oulu.fi
 
 * Antti Juustila
 * firstname.lastname@oulu.fi
-
-The contributor team can be contacted through Slack, Emails
